@@ -1,0 +1,145 @@
+*{margin: 0px;
+  color: aliceblue;
+  font-family: "inter";}
+
+#logo{margin-left: 50px;
+margin-top: 50px;}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(Imagem/fundo-menusuperior.svg);
+    background-color: black;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+display: grid;
+grid-auto-flow: column;
+columns:auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#secaovideo{
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+}
+
+.textoinformativo{
+    color: black;
+    display: flex;
+    align-items: center;
+    ;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+
+}
+
+#video{
+margin: 50px 25px 50px 100px;
+}
+
+#textovideo{
+    color: black;
+}
+
+#carrossel{
+background-color: #247BA0 ;
+padding: 50px;
+}
+
+#titulocarrossel{
+text-align: center;
+font-size: 25px;
+}
+
+#div-cards{
+display: grid;
+grid-auto-flow: column;
+margin-top: 25px;
+}
+
+.card{
+margin-left: 50px;
+}
+
+#setaesquerda{
+    display: none;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 55%;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-5px);
+    transition: 0.5ms;
+}
+
+
+#setadireita{
+    margin-left: 850%;
+    margin-top: 40%;
+}
+#formulario{
+text-align: center;
+
+}
+
+#tituloformulario{
+font-size: 25px;
+margin: 25px;
+color:#383838 ;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5; 
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 250px;
+    height: 40px;
+    color: #EAECE5; 
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button :hover{
+    background-color: #40839f;
+    color: white;
+    transform: translateY(-7px);
+}
+
+
